@@ -1,0 +1,17 @@
+.card {
+    min-width: 500px !important;
+    margin: 20px !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.card-btn:hover {
+    border: 2px solid black;
+}
+
+
+@media screen and (max-width:1320px) {
+    .card {
+        margin: 0px !important;
+    }
+}

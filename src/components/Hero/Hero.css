@@ -1,0 +1,6 @@
+@media screen and (max-width:1320px) {
+    .hero {
+        display: block !important;
+        width: fit-content !important;
+    }
+}

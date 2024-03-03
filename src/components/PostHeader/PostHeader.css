@@ -1,0 +1,24 @@
+.container2 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.dropdown{
+    background-color: #edeef0;
+    
+}
+
+.btn{
+    color: black !important;
+}
+
+.drop {
+    display: flex;
+}
+
+@media screen and (max-width:1320px) {
+    .container2 {
+        display: none;
+    }
+}

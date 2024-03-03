@@ -1,0 +1,33 @@
+.hover-buttons {
+    display: none;
+}
+
+.container1 {
+    z-index: 1;
+    background: url("https://eco-n-tech.com/wp-content/cache/thumb/ec/890ddcd1c2ce5ec_3806x1034.png")center center / cover no-repeat;
+    height: 480px;
+    width: 100%;
+    overflow: hidden;
+}
+.container1-text {
+    margin-top: 320px;
+    margin-left: 150px;
+    font-size: 2rem;
+  }
+
+  @media screen and (max-width:1320px) {
+    .feature-title{
+        font-size: 2rem !important;
+        left: 0px !important;
+    }
+    .feature-subtitle {
+        font-size: 1rem !important;
+    }
+    .container1-text {
+        position: inherit;
+        margin-left: 10px !important;
+    }
+    .hover-buttons{
+        display: block;
+    }
+}

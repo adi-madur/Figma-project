@@ -1,0 +1,10 @@
+.right-hero > .location > input::hover {
+    border: none;
+    width: 200px;
+}
+
+@media screen and (max-width:1320px) {
+    .right-hero{
+        display: none !important;
+    }
+}
